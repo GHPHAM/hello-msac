@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--
+    Gia Huy Pham
+    Assignment: Custom Bookmark Page
+    3/30/2024
+    -->
+    <style>
+        body{
+            max-width: 80%;
+            margin: 0 auto;
+            background: linear-gradient(to bottom, #313131, #0e0e0e);
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        h1{
+            color: antiquewhite;
+            text-align: center;
+            margin: 5rem 0;
+            background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h2{
+            color:antiquewhite;
+            text-align: center;
+            margin: 5rem 0;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        li{
+            border: 1px solid antiquewhite;
+            background-color: rgba(0,0,0,0.2);
+            padding: 10px;
+            margin: 0 5px;
+            flex: 1;
+            text-align: center;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+        a {
+            text-decoration: none; /* Remove underline */
+            color: antiquewhite;
+            /* Fake underline because text-decor does not ease */
+            border-bottom: 1px solid transparent; 
+            transition: border-bottom 0.3s ease;
+        }
+        li:hover a {
+            border-bottom: 1px solid antiquewhite;
+        }
+
+        .copyright {
+            margin-top:10rem;
+            color: antiquewhite;
+            font-family: 'Times New Roman', Times, serif;
+            opacity: 0.5;
+            margin-left: 2rem;
+            margin-right: 2rem;
+            text-align: center;
+        }
+
+        li a:hover,
+        li a:visited,
+        li a:active {
+            color: antiquewhite;
+        }
+        li:hover {
+            background-color: rgb(61, 61, 61, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1> THE BOOKMARKS</h1>
+        <h2> Mt. Sac Links </h2>
+        <ul>
+            <li> <a href="https://mtsac.instructure.com"> Canvas </a> </li>
+            <li> <a href="https://mtsac.instructure.com/courses/122681/"> CISW 17 </a> </li>
+            <li> <a href="https://www.mtsac.edu/"> Mt. SAC Home Page </a> </li>
+            <li> <a href="mailto:hpham41@student.mtsac.edu"> Student Email </a> </li>
+            <li> <a href="https://inside.mtsac.edu/"> Student Portal </a> </li>
+        </ul>
+
+        <h2> Personal Links </h2>
+        <ul>
+            <li> <a href="https://www.blackorchestra.net/"> Black Orchestra </a> </li>
+            <li> <a href="https://www.linkedin.com/"> LinkedIn </a> </li>
+            <li> <a href="https://www.google.com/"> Google </a> </li>
+            <li> <a href="https://github.com/CHooverShrimp"> GitHub </a> </li>
+            <li> <a href="https://www.youtube.com/"> YouTube </a> </li>
+        </ul>
+    </header>
+
+    <div class="copyright">
+        <p> © Huy Pham </p>
+    </div>
+
+    <footer>
+    </footer>
+</body>
+
+</html>
