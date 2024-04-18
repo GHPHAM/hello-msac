@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Week 2 Class Files</title>
+   <link rel="stylesheet" href="/text-editors.css">
+   <!--
+   Gia Huy Pham
+   Assignment: Barebones HTML Template
+   2/28/2024
+   -->
+   <style>
+    a {
+        font-style: italic;
+    }
+   </style>
+</head>
+<body>
+   <h1> Programming Text Editors </h1>
+   <p> Write a sentence or two about text editors. </p>
+   
+   <h2> Visual Studio Code </h2>
+   <p> It just works with most languages out there. It has live server for html so that's a plus! </p>
+   <p id="vscode"> Head to the <a href="https://code.visualstudio.com/"> Visual Studio Code </a> website </p>
+
+   <h2> Sublime Text 3 </h2>
+   <p> It's clean and not clunky. Has context for some really weird obscure language I use. </p>
+   <p style="color:aquamarine";> Head to the <a href="https://www.sublimetext.com/"> Sublime Text </a> website </p>
+
+   <h2 class="warning"> Notepad++ </h2>
+   <p> Incredibly ugly, but it serves its purpose. It's also pretty customizable, but I'm too lazy spending time making it look good. </p>
+   <p> Head to the <a href="https://notepad-plus-plus.org/"> Notepad++ </a> website </p>
+
+    <img src="https://media1.tenor.com/m/5GVNOtxxVo0AAAAd/happy-dance.gif">
+</body>
+</html>
+
+
+
+<script>
+    // Array of colors to choose from
+    const colors = ["red", "green", "blue", "yellow", "purple", "orange"];
+    
+    // Function to change background color
+    function changeBackgroundColor() {
+        // Get random color from the array
+        const randomColor = colors[Math.floor(Math.random() * colors.length)];
+        // Set the background color of the body
+        document.body.style.backgroundColor = randomColor;
+    }
+
+    // Change the background color every one second
+    setInterval(changeBackgroundColor, 200);
+</script>

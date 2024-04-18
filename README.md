@@ -1,7 +1,1 @@
-Shalom
-
-
-This page was updated on the web.
-
-
-This page was edited locally
+# CISW 17 Midterm Starter Files
